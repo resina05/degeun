@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:padding="22dp">
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:src="@drawable/user_1" android:id="@+id/ImageView"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="강상우" android:textSize="17dp"
+        android:textStyle="bold" android:id="@+id/textView"
+        android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="#000000" android:id="@+id/textView1"
+    android:text="시설도 깔끔하고 직원분들도 너무 친절했어요! 기구도 매번 알코올로 소독하시던데 그런 모습을
+보니까 더 안심하고 가게 되네요~ 역에서도 가까워서 접근성도 괜찮아서 정말 강추합니다!!"
+    android:layout_margin="30dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:text="2019/04/05" android:id="@+id/textView2"
+
+    android:layout_marginLeft="290dp"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="horizontal" android:layout_marginTop="30dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/user_1"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="강상우" android:layout_marginTop="5dp" android:textSize="17dp"
+                  android:textStyle="bold" android:id="@+id/textView3"
+                  android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000"
+              android:text="시설도 깔끔하고 직원분들도 너무 친절했어요! 기구도 매번 알코올로 소독하시던데 그런 모습을
+보니까 더 안심하고 가게 되네요~ 역에서도 가까워서 접근성도 괜찮아서 정말 강추합니다!!" android:id="@+id/textView4"
+              android:layout_margin="30dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="2019/04/05" android:id="@+id/textView5"
+
+              android:layout_marginLeft="290dp"/>
+
+
+
+
+
+</LinearLayout>

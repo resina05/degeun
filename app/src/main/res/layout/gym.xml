@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="0dp"
+        >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+        <ImageView
+                android:id="@+id/btn_toolbar_webtoon_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/Menu"
+                android:layout_weight="0"/>
+        <TextView1
+                android:id="@+id/txt_toolbar_webtoon_title"
+                android:text="@string/hello_blank_fragment"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textColor="#272727"
+                android:textStyle="bold"/>
+
+
+        <ImageView
+                android:id="@+id/btn_"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/heart"/>
+        <ImageView
+                android:src="@drawable/gym1"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView"/>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
