@@ -1,7 +1,8 @@
-package com.example.health
+package com.example.health.Activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.health.R
 
 class MainActivity : AppCompatActivity() {
 
